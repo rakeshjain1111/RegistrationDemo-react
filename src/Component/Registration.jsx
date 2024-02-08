@@ -6,13 +6,13 @@ import './Registration.css'
 function Registration() {
   return (
    <>
-        <div className="ractangle postion-relative">
+        {/* <div className="ractangle postion-relative"> */}
        
-        <div className='rform position-absolute' style={{top:60,left:41}}>
-            <div className='px-3 py-4 border rounded shadow-lg' style={{width:469, background:'#D3D3D3'}}>
+        <div className='rform position-absolute' style={/*{top:60,left:41}*/ {top:80,left:500}}>
+            <div className='px-3 py-4 border rounded shadow-lg' style={{width:469, background:'#B4E9EF'}}>
                 <div className='text-center'>
                     <h3>Registration</h3>
-                    <div className='border-top my-3'></div>
+                    <div className='border-top border-danger my-3'></div>
                     <Form>
 
                     {['radio'].map((type) => (
@@ -35,7 +35,7 @@ function Registration() {
                         </div>
                 ))}
 
-                <div className='border-top my-3'></div>
+                <div className='border-top border-danger my-3'></div>
                 <InputGroup className="mb-3">
                     <InputGroup.Text id="basic-addon1" className=' bg-primary'><i className="fa fa-envelope"></i></InputGroup.Text>
                     <Form.Control
@@ -64,7 +64,7 @@ function Registration() {
                 </InputGroup>
 
 
-                <div className='border-top my-3 '></div>
+                <div className='border-top border-danger my-3 '></div>
 
 
                 {['radio'].map((type) => (
@@ -87,7 +87,7 @@ function Registration() {
                         </div>
                 ))}
                 
-                    <div className='border-top my-3'></div>
+                    <div className='border-top border-danger my-3'></div>
 
                     <p className='text-center'>By clicking Register,You are agree our<br/><a href=''> Privacy Policy for w3Doc</a></p>
 
@@ -97,7 +97,7 @@ function Registration() {
                 </div>
             </div>
         </div>
-       </div>
+       {/* </div> */}
    
 
     

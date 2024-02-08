@@ -1,4 +1,5 @@
 .ractangle{
+   
     height:60px;
     width:550px;
     background:blue;
@@ -27,17 +28,7 @@
     border-right: 40px solid transparent;
 }
 
-.rform{
-    display: none;
-   
-}
 
-.ractangle:hover .rform{
-    display: inline;
-    transition: all 5s ease-in-out;
-    animation: updown;
-}
 
-@keyframes updown {
-    
-}
+
+
